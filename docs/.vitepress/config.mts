@@ -27,6 +27,10 @@ export default defineConfig({
             text: "集成测试",
             link: "/testing-basics/integration-testing",
           },
+          {
+            text: "组件测试",
+            link: "/testing-basics/component-testing",
+          },
         ],
       },
     ],
