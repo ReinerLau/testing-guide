@@ -19,6 +19,10 @@ export default defineConfig({
             text: "TDD",
             link: "/testing-basics/tdd",
           },
+          {
+            text: "单元测试",
+            link: "/testing-basics/unit-testing",
+          },
         ],
       },
     ],
