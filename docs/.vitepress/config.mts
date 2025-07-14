@@ -41,6 +41,10 @@ export default defineConfig({
           text: "测试环境",
           items: [
             {
+              text: "搭建环境",
+              link: "/testing-environments/setup-env",
+            },
+            {
               text: "文件结构",
               link: "/testing-environments/file-structure",
             },
