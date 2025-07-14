@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Testing guide"
-  text: "a testing guide for Vue projects"
-  tagline: My great project tagline
+  name: "Vue 测试指南"
+  text: "针对 Vue 项目的测试指南"
+  tagline: 让开发爱上测试
 
 features:
   - title: Feature A
