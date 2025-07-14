@@ -23,3 +23,11 @@ API: `test.runIf`
 场景: 和 [特定条件跳过测试](#特定条件跳过测试) 相反, 只在特定条件下运行测试
 
 示例: `src/test-api/runIf.test.ts`, 运行测试后会看到该测试用例显示 `skipped`
+
+## 只运行指定测试
+
+API: `test.only`
+
+场景: 只运行指同一个测试文件中指定测试, 通常用于调试
+
+示例: `src/test-api/only.test.ts`, 运行测试后会看到同一个文件中的其他测试用例显示 `skipped`
