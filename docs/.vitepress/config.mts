@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "基础概念", link: "/testing-basics/tdd" },
+      { text: "测试环境", link: "/testing-environments/file-structure" },
     ],
 
     sidebar: {
@@ -31,6 +32,17 @@ export default defineConfig({
             {
               text: "组件测试",
               link: "/testing-basics/component-testing",
+            },
+          ],
+        },
+      ],
+      "/testing-environments/": [
+        {
+          text: "测试环境",
+          items: [
+            {
+              text: "文件结构",
+              link: "/testing-environments/file-structure",
             },
           ],
         },
