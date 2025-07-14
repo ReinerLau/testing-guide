@@ -6,13 +6,6 @@ hero:
   name: "Testing guide"
   text: "a testing guide for Vue projects"
   tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Feature A
