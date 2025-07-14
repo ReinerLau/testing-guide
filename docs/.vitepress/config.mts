@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Testing guide",
-  description: "a testing guide for Vue projects",
+  title: "Vue testing guide",
+  description: "A testing guide for Vue projects",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
