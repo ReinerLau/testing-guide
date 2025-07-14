@@ -11,29 +11,31 @@ export default defineConfig({
       { text: "基础概念", link: "/testing-basics/tdd" },
     ],
 
-    sidebar: [
-      {
-        text: "基础概念",
-        items: [
-          {
-            text: "TDD",
-            link: "/testing-basics/tdd",
-          },
-          {
-            text: "单元测试",
-            link: "/testing-basics/unit-testing",
-          },
-          {
-            text: "集成测试",
-            link: "/testing-basics/integration-testing",
-          },
-          {
-            text: "组件测试",
-            link: "/testing-basics/component-testing",
-          },
-        ],
-      },
-    ],
+    sidebar: {
+      "/testing-basics/": [
+        {
+          text: "基础概念",
+          items: [
+            {
+              text: "TDD",
+              link: "/testing-basics/tdd",
+            },
+            {
+              text: "单元测试",
+              link: "/testing-basics/unit-testing",
+            },
+            {
+              text: "集成测试",
+              link: "/testing-basics/integration-testing",
+            },
+            {
+              text: "组件测试",
+              link: "/testing-basics/component-testing",
+            },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [
       {
