@@ -14,4 +14,12 @@ API: `test.skipIf`
 
 场景: 在特定条件下跳过测试, 假设某个函数的逻辑只在 `process.env.NODE_ENV` 为 `production` 时生效, 而 vitest 默认运行时 `process.env.NODE_ENV` 为 `test`, 此时针对该函数运行测试只会得到报错的结果, 因此需要在 `process.env.NODE_ENV` 为非 `production` 的情况下跳过测试避免报错
 
-示例: `src/test-api/skipif.test.ts`, 运行测试后会看到该测试用例显示 `skipped`
+示例: `src/test-api/skipIf.test.ts`, 运行测试后会看到该测试用例显示 `skipped`
+
+## 特定条件运行测试
+
+API: `test.runIf`
+
+场景: 和 [特定条件跳过测试](#特定条件跳过测试) 相反, 只在特定条件下运行测试
+
+示例: `src/test-api/runIf.test.ts`, 运行测试后会看到该测试用例显示 `skipped`
