@@ -60,6 +60,10 @@ export default defineConfig({
               text: "Test API",
               link: "/vitest/test-api",
             },
+            {
+              text: "Bench API",
+              link: "/vitest/bench-api",
+            },
           ],
         },
       ],
