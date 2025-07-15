@@ -17,3 +17,16 @@ export function getUserProfile(id: number) {
     updatedAt: "2024-01-15T10:30:00Z",
   };
 }
+
+export function renderButton(props) {
+  return `
+      <button 
+        class="btn btn-primary ${props.size}" 
+        disabled="${props.disabled}"
+        data-testid="submit-button"
+      >
+        <span class="icon">${props.icon}</span>
+        <span class="text">${props.text}</span>
+      </button>
+    `;
+}
