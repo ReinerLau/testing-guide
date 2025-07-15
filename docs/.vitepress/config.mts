@@ -10,7 +10,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "基础概念", link: "/testing-basics/tdd" },
       { text: "测试环境", link: "/testing-environments/setup-env" },
-      { text: "Vitest", link: "/vitest/test-api" },
+      { text: "应用场景", link: "/scenarios/snapshot-testing" },
     ],
 
     sidebar: {
@@ -63,6 +63,17 @@ export default defineConfig({
             {
               text: "Bench API",
               link: "/vitest/bench-api",
+            },
+          ],
+        },
+      ],
+      "/scenarios/": [
+        {
+          text: "应用场景",
+          items: [
+            {
+              text: "快照测试",
+              link: "/scenarios/snapshot-testing",
             },
           ],
         },
