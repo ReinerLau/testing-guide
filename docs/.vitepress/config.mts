@@ -91,6 +91,10 @@ export default defineConfig({
               text: "测试用例命名",
               link: "/best-practices/test-case-naming",
             },
+            {
+              text: "AAA 模式",
+              link: "/best-practices/aaa-pattern",
+            },
           ],
         },
       ],
