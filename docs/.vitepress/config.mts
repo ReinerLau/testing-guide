@@ -103,6 +103,10 @@ export default defineConfig({
               text: "黑盒测试",
               link: "/best-practices/black-box-testing",
             },
+            {
+              text: "仿真数据",
+              link: "/best-practices/mock-data",
+            },
           ],
         },
       ],
