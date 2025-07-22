@@ -10,7 +10,8 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "基础概念", link: "/testing-basics/tdd" },
       { text: "测试环境", link: "/testing-environments/setup-env" },
-      { text: "应用场景", link: "/scenarios/snapshot-testing" },
+      { text: "应用场景", link: "/scenarios/function-return-value" },
+      { text: "最佳实践", link: "/best-practices/golden-rule" },
     ],
 
     sidebar: {
@@ -74,6 +75,21 @@ export default defineConfig({
             {
               text: "快照测试",
               link: "/scenarios/snapshot-testing",
+            },
+          ],
+        },
+      ],
+      "/best-practices/": [
+        {
+          text: "最佳实践",
+          items: [
+            {
+              text: "黄金法则",
+              link: "/best-practices/golden-rule",
+            },
+            {
+              text: "测试用例命名",
+              link: "/best-practices/test-case-naming",
             },
           ],
         },
