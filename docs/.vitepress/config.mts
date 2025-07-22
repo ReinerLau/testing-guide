@@ -95,6 +95,10 @@ export default defineConfig({
               text: "AAA 模式",
               link: "/best-practices/aaa-pattern",
             },
+            {
+              text: "BDD 断言",
+              link: "/best-practices/bdd-assertions",
+            },
           ],
         },
       ],
