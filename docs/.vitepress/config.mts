@@ -99,6 +99,10 @@ export default defineConfig({
               text: "BDD 断言",
               link: "/best-practices/bdd-assertions",
             },
+            {
+              text: "黑盒测试",
+              link: "/best-practices/black-box-testing",
+            },
           ],
         },
       ],
