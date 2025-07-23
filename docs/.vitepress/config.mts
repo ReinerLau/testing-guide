@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vue 测试指南",
-  description: "针对 Vue 项目的中文测试指南",
+  title: "JavaScript 测试指南",
+  description: "JavaScript 测试指南",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
