@@ -127,6 +127,10 @@ export default defineConfig({
               text: "UI 分离",
               link: "/best-practices/ui-separation",
             },
+            {
+              text: "测试属性",
+              link: "/best-practices/testing-attributes",
+            },
           ],
         },
       ],
