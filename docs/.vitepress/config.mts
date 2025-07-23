@@ -9,8 +9,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "基础概念", link: "/testing-basics/tdd" },
-      { text: "测试环境", link: "/testing-environments/setup-env" },
-      { text: "应用场景", link: "/scenarios/function-return-value" },
+      { text: "场景示例", link: "/scenarios/snapshot-testing" },
       { text: "最佳实践", link: "/best-practices/golden-rule" },
     ],
 
@@ -34,36 +33,6 @@ export default defineConfig({
             {
               text: "组件测试",
               link: "/testing-basics/component-testing",
-            },
-          ],
-        },
-      ],
-      "/testing-environments/": [
-        {
-          text: "测试环境",
-          items: [
-            {
-              text: "搭建环境",
-              link: "/testing-environments/setup-env",
-            },
-            {
-              text: "文件结构",
-              link: "/testing-environments/file-structure",
-            },
-          ],
-        },
-      ],
-      "/vitest/": [
-        {
-          text: "Vitest",
-          items: [
-            {
-              text: "Test API",
-              link: "/vitest/test-api",
-            },
-            {
-              text: "Bench API",
-              link: "/vitest/bench-api",
             },
           ],
         },
@@ -130,6 +99,10 @@ export default defineConfig({
             {
               text: "测试属性",
               link: "/best-practices/testing-attributes",
+            },
+            {
+              text: "文件结构",
+              link: "/best-practices/file-structure",
             },
           ],
         },
