@@ -115,6 +115,10 @@ export default defineConfig({
               text: "内联快照测试",
               link: "/best-practices/inline-snapshot-testing",
             },
+            {
+              text: "隔离测试",
+              link: "/best-practices/isolated-testing",
+            },
           ],
         },
       ],
