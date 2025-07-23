@@ -107,6 +107,10 @@ export default defineConfig({
               text: "仿真数据",
               link: "/best-practices/mock-data",
             },
+            {
+              text: "基于属性测试",
+              link: "/best-practices/property-based-testing",
+            },
           ],
         },
       ],
