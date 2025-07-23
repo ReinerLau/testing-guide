@@ -111,6 +111,10 @@ export default defineConfig({
               text: "基于属性测试",
               link: "/best-practices/property-based-testing",
             },
+            {
+              text: "内联快照测试",
+              link: "/best-practices/inline-snapshot-testing",
+            },
           ],
         },
       ],
