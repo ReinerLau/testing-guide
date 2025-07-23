@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "JavaScript 测试指南"
-  tagline: 让 JavaScript 开发者们都能信仰测试
+  tagline: 让开发者们都能信仰测试
 features:
   - title: 知道
     details: 关于测试的概念和术语
