@@ -119,6 +119,10 @@ export default defineConfig({
               text: "隔离测试",
               link: "/best-practices/isolated-testing",
             },
+            {
+              text: "错误断言",
+              link: "/best-practices/error-assertions",
+            },
           ],
         },
       ],
