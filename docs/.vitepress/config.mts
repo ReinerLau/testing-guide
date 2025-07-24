@@ -53,6 +53,10 @@ export default defineConfig({
               text: "隔离副作用",
               link: "/scenarios/isolate-side-effects",
             },
+            {
+              text: "Mock 副作用",
+              link: "/scenarios/mock-side-effects",
+            },
           ],
         },
       ],
