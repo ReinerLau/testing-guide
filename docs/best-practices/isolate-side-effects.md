@@ -10,6 +10,8 @@
 
 ## 示例
 
+对应 `src/scenarios/isolate-side-effects.test.ts`:
+
 ```ts
 /**
  * 汇总了副作用与核心的函数, 可以 Mock 后测试, 也可以不测试
