@@ -14,7 +14,7 @@
 /**
  * 汇总了副作用与核心的函数, 可以 Mock 后测试, 也可以不测试
  */
-function saveUserInfo(userInfo: { name: string; age: number }) {
+function saveUserInfo() {
   const user = getUserInfo();
   saveToLocalStorage("userInfo", JSON.stringify(user));
 }
