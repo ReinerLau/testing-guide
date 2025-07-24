@@ -45,6 +45,10 @@ export default defineConfig({
               text: "快照测试",
               link: "/scenarios/snapshot-testing",
             },
+            {
+              text: "断言异常",
+              link: "/scenarios/assert-exceptions",
+            },
           ],
         },
       ],
