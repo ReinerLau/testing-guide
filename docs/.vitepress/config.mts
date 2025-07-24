@@ -93,10 +93,6 @@ export default defineConfig({
               link: "/best-practices/isolated-testing",
             },
             {
-              text: "错误断言",
-              link: "/best-practices/error-assertions",
-            },
-            {
               text: "UI 分离",
               link: "/best-practices/ui-separation",
             },
