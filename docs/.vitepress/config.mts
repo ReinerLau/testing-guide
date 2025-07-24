@@ -49,6 +49,10 @@ export default defineConfig({
               text: "断言异常",
               link: "/scenarios/assert-exceptions",
             },
+            {
+              text: "隔离副作用",
+              link: "/scenarios/isolate-side-effects",
+            },
           ],
         },
       ],
