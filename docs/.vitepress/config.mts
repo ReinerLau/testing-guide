@@ -57,6 +57,10 @@ export default defineConfig({
               text: "Mock 副作用",
               link: "/scenarios/mock-side-effects",
             },
+            {
+              text: "基准测试",
+              link: "/scenarios/benchmark",
+            },
           ],
         },
       ],
