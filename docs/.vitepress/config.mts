@@ -39,7 +39,7 @@ export default defineConfig({
       ],
       "/scenarios/": [
         {
-          text: "应用场景",
+          text: "场景示例",
           items: [
             {
               text: "快照测试",
